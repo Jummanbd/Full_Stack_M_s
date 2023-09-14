@@ -76,4 +76,6 @@ mongoose
   })
   .catch((error) => console.log(`${error} did not connect`));
 
-    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+     app.listen(PORT, () => {
+    console.log("Server is running on port " + PORT)
+})
